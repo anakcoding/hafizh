@@ -15,8 +15,8 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: $3cf1451b0755d4cb3d910a825d5f003f64a15b3f
+  github_token: $3cf1451b0755d4cb3d910a825d5f003f64a15b3f
+  local_dir: content
   target_branch: gh-pages
   on:
     branch: master
